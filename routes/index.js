@@ -18,13 +18,13 @@ router.get('/byron', function(req, res, next) {
 
 
 /* Patrick Switzer */
-router.get('/projects', function(req, res, next) {
-  res.render('projects', { title: 'Favorite Person #2' });
+router.get('/patrick', function(req, res, next) {
+  res.render('patrick', { title: 'Favorite Person #2' });
 });
 
 /* James Kelly */
-router.get('/services', function(req, res, next) {
-  res.render('services', { title: 'Favorite Person #3' });
+router.get('/james', function(req, res, next) {
+  res.render('james', { title: 'Favorite Person #3' });
 });
 
 /* CONTACT ME PAGE. */
