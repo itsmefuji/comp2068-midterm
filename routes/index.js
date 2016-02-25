@@ -11,25 +11,24 @@ router.get('/', function(req, res, next) {
   res.render('index', { title: 'the Home Page' });
 });
 
-/* GET About Me page. */
-router.get('/about', function(req, res, next) {
-  res.render('about', { title: 'About Me' });
+/* Byron Essert. */
+router.get('/byron', function(req, res, next) {
+  res.render('byron', { title: 'Favorite Person #1' });
 });
 
-/* GET Contact Me page */
+
+/* Patrick Switzer */
+router.get('/projects', function(req, res, next) {
+  res.render('projects', { title: 'Favorite Person #2' });
+});
+
+/* James Kelly */
+router.get('/services', function(req, res, next) {
+  res.render('services', { title: 'Favorite Person #3' });
+});
+
+/* CONTACT ME PAGE. */
 router.get('/contact', function(req, res, next) {
   res.render('contact', { title: 'Contact Me' });
 });
-
-/* GET Projects page */
-router.get('/projects', function(req, res, next) {
-  res.render('projects', { title: 'Projects' });
-});
-
-/* GET Service page. */
-router.get('/services', function(req, res, next) {
-  res.render('services', { title: 'Services' });
-});
-
-
 module.exports = router;
