@@ -1,6 +1,7 @@
 /*
-Yuji Fujiyama-200300256
-Express Porfolio Assignment
+Name: Yuji Fujiyama-200300256
+Project: Midterm
+Date: Feb. 25. 2016
 */
 
 var express = require('express');

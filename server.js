@@ -5,7 +5,7 @@
  */
 
 var app = require('./app');
-var debug = require('debug')('comp2068-w2016-lab3:server');
+var debug = require('debug')('comp2068-200300256-midterm:server');
 var http = require('http');
 
 /**

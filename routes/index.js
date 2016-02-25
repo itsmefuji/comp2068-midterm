@@ -1,6 +1,7 @@
 /*
-Yuji Fujiyama-200300256
-Express Porfolio Assignment
+Name: Yuji Fujiyama-200300256
+Project: Midterm
+Date: Feb. 25. 2016
 */
 
 var express = require('express');
@@ -8,7 +9,7 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'the Home Page' });
+  res.render('index', { title: 'Home Page' });
 });
 
 /* Byron Essert. */

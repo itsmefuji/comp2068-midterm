@@ -1,7 +1,7 @@
 /*
 Name: Yuji Fujiyama-200300256
-Project: Express Porfolio Assignment
-Date: Feb. 10. 2016
+Project: Midterm
+Date: Feb. 25. 2016
 */
 
 /*Custom Javascript*/
