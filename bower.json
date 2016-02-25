@@ -1,0 +1,23 @@
+{
+  "name": "comp2068-w2016-Midterm",
+  "description": "comp2068 Midterm deployed to Azure",
+  "main": "",
+  "authors": [
+    "itsmefuji <yujif.gc@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/itsmefuji/comp2068-midterm",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^2.2.0",
+    "bootstrap": "^3.3.6",
+    "font-awesome": "^4.5.0"
+  }
+}
